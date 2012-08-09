@@ -1,0 +1,67 @@
+body {
+  background-color: #1a1a1a;
+  color: #999999;
+  font-family: georgia,"times new roman",times,serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 25px 0 25px; }
+
+.heading, h1, h2, h3 {
+  color: #FFFFFF; }
+
+h1, h2, h3, h3 {
+  font-weight: normal; }
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  text-indent: -9999999px; }
+header img {
+  width: 100%; }
+
+h2 {
+  font-size: 3em; }
+
+date {
+  color: #2775E1;
+  font-family: "Helvetica Neue",helvetica,arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em; }
+
+a {
+  color: #507E99;
+  text-decoration: none; }
+
+a:hover, a:active {
+  text-decoration: underline; }
+
+article {
+  border-bottom: 1px solid #333;
+  margin-bottom: 40px; }
+  article h1 {
+    font-size: 2em; }
+  article p {
+    font-size: 1.5em;
+    line-height: 1.5; }
+
+footer nav ul {
+  list-style: none;
+  padding: 0 0 20px 0; }
+  footer nav ul li {
+    font-family: "Helvetica Neue",helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    display: inline-block;
+    padding-right: 2em; }
+
+#Stage {
+  float: right;
+  border-left: 10px solid #1a1a1a;
+  margin: 10px 0 10px 10px; }
+
+@media screen and (max-width: 767px) {
+  #Stage {
+    display: none; } }
